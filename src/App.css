@@ -1,9 +1,13 @@
+body {
+  background-color: #66666d;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -13,9 +17,28 @@
   }
 }
 
+.box {
+  color: white;
+  background: #86868d;
+  width: 64px;
+  height: 128px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  position: relative;
+  font-size: 10px;
+}
+.box:hover {
+  cursor: pointer;
+  background: #26262d;
+}
+.box.selected {
+  background: #000;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
